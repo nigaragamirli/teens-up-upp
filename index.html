@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    Nigar Agamirli
+    <div class="container">
+        <div>
+            <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png">
+        </div>
+
+
+        <div class="container1">
+            <input type="search" placeholder="Search...">
+            <button>
+            <img class="search" src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png" alt="">
+            </button>
+        </div>
+
+
+
+        <div>
+            <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Our products</li>
+                <li>Careers</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+    </div>
+
+    
 </body>
+
 </html>
+<style>
+    img {
+        width: 50px;
+        height: 50px;
+    }
+
+    li {
+        display: flex;
+    }
+    .container{
+        display: flex;
+        justify-content: space-around;
+        background-color: darkgray;
+        padding: 20px;
+    }
+    input{
+        margin-top: 8px;
+        padding: 10px 10px;
+        width: 500px;
+        border-bottom-left-radius:5px ;
+        border-top-left-radius:5px ;
+        /* border-radius: 50px; */
+    }
+    body{
+        background-color: grey;
+    }
+    ul{
+        display: flex;
+        gap: 10px;
+    }
+    .search{
+        width: 30px;
+        height: 30px;
+    }
+    .container1{
+        display: flex;
+    }
+    button{
+        height: 45px;
+        margin-top: 8px;
+        border-bottom-right-radius:5px ;
+        border-top-right-radius:5px ;
+        /* border-radius: 50px; */
+    }
+</style>
